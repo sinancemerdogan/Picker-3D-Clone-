@@ -15,8 +15,7 @@ public class LevelManager : MonoBehaviour {
     private void Start() {
         levelPlatformPrefab = Resources.Load<LevelPlatform>("Prefabs/Level Platform");
         levelPlatformPool = new ObjectPool<LevelPlatform>(levelPlatformPrefab, transform);
-        currentLevelPlatform = levelPlatformPool.GetPooledObject();
-        PlayerPrefs.DeleteAll();
+        currentLevelPlatform = levelPlatformPool.GetPooledObject(); 
         if (PlayerPrefs.HasKey("Level")) {
             currentLevel = PlayerPrefs.GetInt("Level");
         }
