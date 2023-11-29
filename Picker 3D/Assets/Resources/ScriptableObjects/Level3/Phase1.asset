@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6153cec5d855842b0df460268a7334, type: 3}
+  m_Name: Phase1
+  m_EditorClassIdentifier: 
+  numberOfObjectsToComplete: 25
+  objectPrefab: {fileID: 4975766371884016101, guid: d6f1b152acd8fc743be2690ab7345026,
+    type: 3}
+  objectPositionsList:
+  - {x: 15, y: 0.125, z: 0}
+  - {x: 16, y: 0.125, z: 0}
+  - {x: 17, y: 0.125, z: 0}
+  - {x: 18, y: 0.125, z: 0}
+  - {x: 19, y: 0.125, z: 0.5}
+  - {x: 19, y: 0.125, z: -0.5}
+  - {x: 20, y: 0.125, z: 0}
+  - {x: 30, y: 0.125, z: 1}
+  - {x: 31, y: 0.125, z: 1}
+  - {x: 32, y: 0.125, z: 1}
+  - {x: 33, y: 0.125, z: 1}
+  - {x: 34, y: 0.125, z: 1.5}
+  - {x: 34, y: 0.125, z: 0.5}
+  - {x: 35, y: 0.125, z: 1}
+  - {x: 46, y: 0.125, z: -1}
+  - {x: 47, y: 0.125, z: -1}
+  - {x: 48, y: 0.125, z: -1}
+  - {x: 49, y: 0.125, z: -1}
+  - {x: 50, y: 0.125, z: -0.5}
+  - {x: 50, y: 0.125, z: -1.5}
+  - {x: 51, y: 0.125, z: -1}
+  - {x: 61, y: 0.125, z: 0}
+  - {x: 62, y: 0.125, z: 0}
+  - {x: 63, y: 0.125, z: 0}
+  - {x: 64, y: 0.125, z: 0}
+  - {x: 65, y: 0.125, z: 0.5}
+  - {x: 65, y: 0.125, z: -0.5}
+  - {x: 66, y: 0.125, z: 0}
+  - {x: 67, y: 0.125, z: 0}
+  - {x: 68, y: 0.125, z: 0}
+  - {x: 69, y: 0.125, z: 0}
